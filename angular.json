@@ -17,6 +17,7 @@
             "polyfills": [
               "zone.js"
             ],
+            "outputPath": "dist/geo-map",
             "tsConfig": "tsconfig.app.json",
             "assets": [
               {
@@ -85,8 +86,14 @@
               "src/styles.css"
             ]
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy"
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "e8777a95-b43b-43d7-85f4-c5ca1e1b9b1b"
   }
 }
